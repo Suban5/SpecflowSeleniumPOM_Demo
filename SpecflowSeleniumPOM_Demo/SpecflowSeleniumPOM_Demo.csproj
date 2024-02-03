@@ -32,8 +32,8 @@
 
   <ItemGroup>
     <Folder Include="Drivers\" />
-    <Folder Include="TestResult\" />
     <Folder Include="Reports\" />
+    <Folder Include="TestResult\DhtmlReport\" />
   </ItemGroup>
 
 </Project>
