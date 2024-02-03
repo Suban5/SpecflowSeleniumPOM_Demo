@@ -6,7 +6,8 @@
     <Parameter name="pw" value="passwordtest" />
   </TestRunParameters>-->
   <NUnit>
-    <TestOutputXml>C:\TestResult\XML</TestOutputXml>
+	  <!--https://docs.nunit.org/articles/vs-test-adapter/Tips-And-Tricks.html-->
+	  <TestOutputXml>C:\TestResult\XML</TestOutputXml>
     <OutputXmlFolderMode>RelativeToResultDirectory</OutputXmlFolderMode>
     <NewOutputXmlFileForEachRun>true</NewOutputXmlFileForEachRun>
   </NUnit>

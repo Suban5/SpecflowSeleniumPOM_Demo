@@ -51,12 +51,16 @@ namespace SpecflowSeleniumPOM_Demo.StepDefinitions
         [When(@"I click login button")]
         public void WhenIClickLoginButton()
         {
+            Thread.Sleep(3000);
+            jSExecutor.ScrollIntoElement(loginPage.LoginButton);
             loginPage.LoginButton.Click();
         }
 
         [When(@"I click logout button")]
         public void WhenIClickLogoutButton()
         {
+            Thread.Sleep(3000);
+            jSExecutor.ScrollIntoElement(loginPage.LogoutButton);
             loginPage.LogoutButton.Click();
         }
 
